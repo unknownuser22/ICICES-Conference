@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet"></head>
+<body>
+    <section class="header">
+        
+        <nav>
+            <div class="home" id="home">
+                <a href="index.html"><img src="conference logo.png"></a>
+
+            </div>
+            
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    
+                    <li>
+                        <a href="index.html"><b>HOME</b></a>
+                        
+                    </li>
+                    <li><a href="committee.html"><b>COMMITTEE</b></a></li>
+                    <li>
+                        <a href="callforpaper.html"><b>CALL FOR PAPER</b></a>
+                        
+                    </li>
+
+                    <li>
+                        <a href="impdates.html"><b>IMPORTANT DATES</b></a>
+                        
+                    </li>
+                    <li><a href="https://cmt3.research.microsoft.com/User/Register?ReturnUrl=%2FESCI2024"><b>REGISTRATION</b></a></li>
+                    
+                    <li><a href=""><b>SCHEDULE</b></a></li>
+                    <li><a href="contactUs.html"><b>CONTACT US</b></a></li>
+                    <li><a href="venue.html"><b>VENUE</b></a></li>
+                </ul>
+            </div>
+            <a href=""><img src="AEC.png"></a>
+            <a href=""><img src="GU Digital Logo (5000 x 5334).png"></a>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1><b>Internatinal Conference on Inovations in Computing and Electronics for Sustaintability</b></h1>
+        <!------<p>Making website is now one of the easiest thing in the world. You just need to learn HTML, CSS, <br>Javascript and you are good to go.
+            
+        </p>
+        <a href="callforpaper.html" class="hero-btn">Submit Paper</a>--->
+    </div>
+
+        
+    </section>
+
+    
+    
+        
+    
+
+   
+
+    
+    <!------- Footer -------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Bijit Kalita</p>
+    </section>
+
+
+
+
+
+    
+    <!-----------JavaScript for Toggle menu------------->
+    <script>
+        var navLinks =document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
